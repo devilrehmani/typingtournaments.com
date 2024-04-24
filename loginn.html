@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login Form Design | CodeLab</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">Login Form</div>
+      <form id="login-form">
+        <div class="field">
+          <input type="text" id="fullName" required />
+          <label>Full Name</label>
+        </div>
+        <div class="field">
+          <input type="number" id="phoneNumber" required />
+          <label>Phone Number</label>
+        </div>
+        <div class="field">
+          <input type="password" id="password" required />
+          <label>Password</label>
+        </div>
+        <div class="field">
+          <input type="submit" value="Login" onclick="submitForm();" />
+        </div>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
